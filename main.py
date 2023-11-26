@@ -19,7 +19,7 @@ def login(u_name, p_word):
     driver.find_element(By.ID, "Login").click();
 
 
-login("shubhang.vats@addeqa1.com.svqa", "Shubhang@123")
+login("username", "password")
 
 driver.implicitly_wait(40)
 driver.find_element(By.XPATH,
